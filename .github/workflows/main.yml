@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Kubeflow Pipeline
 
 env:
   DOCKER_USER: ${{secrets.DOCKER_USER}}
