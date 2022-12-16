@@ -58,6 +58,7 @@ def deploy_model_op(model):
    name='Boston Housing Pipeline',
    description='An example pipeline that trains and logs a regression model.'
 )
+
 def boston_pipeline():
     _preprocess_op = preprocess_op()
     
